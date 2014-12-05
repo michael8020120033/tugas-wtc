@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.WTCshops.tugaswtc.ErafoneActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/erafone" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kebutuhan manusia akan sarana telekomunikasi nirkabel dan medianya (multimedia) dalam dekade terakhir ini terus meningkat. Infrastruktur telekomunikasi yang dahulu hanya ada di kota-kota besar atau metropolitan, saat ini sudah merambah sampai daerah terpencil, Kondisi ini menuntut semakin besarnya kebutuhan  telepon seluler atau yang biasa dikenal sebagai ponsel. Oleh karena itu, sebagai salah satu Retailer Ponsel terbesar, Erafone menjadi solusi dari kebutuhan tersebut.
+
+Perusahaan memasuki bisnis retail dengan membuka outlet-outlet Erafone yang menawarkan beragam ponsel original merek Nokia beserta aksesorisnya. Tahun 2004, Erafone resmi menjadi distributor retail resmi untuk merk Sony Ericsson dan merk Samsung di akhir tahun 2005.
+
+Erafone berkomitmen untuk senantiasa berinovasi demi memenuhi tuntutan kebutuhan telekomunikasi dan pasar. Komitmen tersebut dijaga dan dipelihara dengan memberikan nilai tambah dan kualitas, serta pelayanan profesional kepada para pelanggan. Seluruh usaha tersebut didukung dengan tersebarnya 200-an outlet Erafone dengan 18 kantor cabang di Jabodetabek dan kota-kota besar lainnya di seluruh nusantara.
+
+Saat ini Erafone menyediakan berbagai produk Ponsel dan Tablet dari berbagai Brand ternama seperti Nokia, Blackberry,  Samsung, Apple, Sony Ericsson, Motorola, LG, Dell, Huawei, Acer serta Venera yang merupakan Brand Lokal ternama. Erafone juga menjual berbagai pilihan produk operator dan aksesories.
+
+Kerjasama dengan Korporasi Besar, diantaranya adalah Astra-Honda Motor, Coca Cola, Indomaret, Toyota-Astra Motor, Adira Finance, Federal International Finance, Sosro, Telkomsel,  Indosat, XL,  bank-bank papan atas seperti Citibank, Bank Mandiri, BCA, BRI, BNI, Bank Mega, OCBC-NISP, Bank Niaga, menjadikan bukti bahwa AnchorErafone adalah MITRA TERPERCAYA. Semua ini menjadi pendukung utama demi mewujudkan visi dan misi Erafone menjadi Best Handphone Online Store di Indonesia"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

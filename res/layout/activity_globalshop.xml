@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.WTCshops.tugaswtc.GlobalshopActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/globals" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Global Teleshop merupakan gerai penjualan handphone yang lebih dikenal
+sebagai outlet ponsel merek terkemuka terutama Nokia,Sony ericson, dan Blackberry.
+Perushaan yang berdiri pada 1996 ini pada awalnya bernama PT Cipta Multi Usaha Perkasa
+yang bertindak sebagai distributor utama produk telekomunikasi merek Ericson 
+dan satelindo.
+Salah satu langkah penting yang dilakukan oleh perusahaan ini adalah 
+menjadi distributor utama produk ponsel dan peralatan telekomunikasi merek Nokia pada 198.
+Dengan langkah penting ini, perusahaan mampu menancapkan image sebagai ritel
+merek Nokia yang asli sehingga jika anda mencari ponsel brand Noia asli, cukup datang ke outle-outlet
+yag tersebar di kota-kota besar di indonesia
+perpindahan dari PT Cita Multi Usaha Perkasa ke PT Global Teleshop yang dilakukan manajmen perusahaan 
+ii pada 2011, tak terlepas dari keinginan untuk semakin memposisikan sebagai ritel produk telkomunikasi 
+utama di insonesia, dengan misi untuk menjadi pilihan utama pelanggan yang membutuhkan 
+peralatan telekomunikasi. "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
